@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            depends: Laravel5
+        - Laravel5:
+            root: '../../../'

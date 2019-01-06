@@ -1,0 +1,35 @@
+{
+    "name": "structure",
+    "type": "library",
+    "description": "library for laravel module structure",
+    "keywords": [
+        "php",
+        "laravel",
+        "modules",
+        "structure"
+    ],
+    "homepage": "https://gitlab.com/eboo_booking/structure",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mikl",
+            "email": "mikl778890@yandex.ru"
+        }
+    ],
+    "require": {
+        "zendframework/zend-filter": "^2.8",
+        "zendframework/zend-hydrator": "^2.4",
+        "zendframework/zend-servicemanager": "^3.3",
+        "php": "^7.1.3",
+        "barryvdh/laravel-cors": "^0.11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Structure\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
+
