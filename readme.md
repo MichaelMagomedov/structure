@@ -6,7 +6,7 @@
 {
     "repositories": [
 	  {
-	    "url": "https://gitlab.com/eboo_booking/structure.git",
+	    "url": "https://github.com/MichaelMagomedov/structure",
 	    "type": "git"
 	  }
 	],
